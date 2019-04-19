@@ -24,6 +24,7 @@
         <input type="password" placeholder="Password" name="password"/>
         <button>login</button>
         <p class="message">Forgot Password? <a href="#">Click here to get new password</a></p>
+        <!-- <p>Yolo</p> -->
 
       </form>
     </div>
