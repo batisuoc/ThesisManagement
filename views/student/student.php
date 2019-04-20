@@ -1,3 +1,15 @@
+<?php
+session_start();
+require_once 'controller/LoginController.php';
+
+$logCtrler = new LoginController;
+if(!empty($_SESSION)){
+  $logCtrler->checkLogin();
+  die();
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,10 +23,10 @@
     <title>Đăng ký Đồ Án</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/shop-homepage.css" rel="stylesheet">
+    <link href="../../css/shop-homepage.css" rel="stylesheet">
 
   </head>
 
@@ -30,7 +42,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                  <a class="nav-link" href="#">Username</a>
+                  <a class="nav-link" href="#"><?$_SESSION['user_id']?></a>
               </li>
           </ul>
         </div>
@@ -44,11 +56,11 @@
 
         <div class="col-lg-3">
 
-          <h1 class="my-4">Giảng Viên</h1>
+          <h1 class="my-4">Sinh Viên</h1>
           <div class="list-group">
-            <a href="#" class="list-group-item">Thông Tin Giảng Viên</a>
+            <a href="#" class="list-group-item">Thông Tin Sinh Viên</a>
             <a href="#" class="list-group-item">Danh Sách Môn Học</a>
-            <a href="#" class="list-group-item">Đồ Án Được Đề Xuất</a>
+            <a href="#" class="list-group-item">Đồ Án Đề Xuất</a>
           </div>
 
         </div>
@@ -87,7 +99,7 @@
           </div>
 
           <div class="row">
-      
+		  
 
 
           </div>
@@ -103,7 +115,7 @@
     <!-- /.container -->
 
     <!-- Footer -->
-    <footer class="py-3 bg-dark">
+    <footer class="py-5 bg-dark">
       <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; DoNgocKhaiTrinhHangUoc 2019</p>
       </div>
@@ -111,8 +123,8 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../vendor/jquery/jquery.min.js"></script>
+    <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
 

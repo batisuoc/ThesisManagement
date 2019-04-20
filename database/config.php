@@ -1,7 +1,7 @@
 <?php
 
 define("DBHOST", "localhost");
-define("DBNAME", "news");
+define("DBNAME", "project_management");
 define("DBUSER", "root");
 define("DBPASS", "");
 
