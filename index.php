@@ -1,5 +1,4 @@
 <?php
-ob_start();
 session_start();
 
 require_once 'controller/LoginController.php';
@@ -39,23 +38,30 @@ $logCtrler = new LoginController;
 <body>
 	<?php
 
-	// $logCtrler->checkLogin();
 	if (!empty($_SESSION))
+	{
+		if ($_SESSION['user_role'] == 'GV')
 		{
-			if ($_SESSION['user_role'] == 'GV')
-			{
-				header('location: ./views/student/student.php');
-				die();
-			}
-			elseif ($_SESSION['user_role'] == 'HS') {
-				header('location: ./views/teacher/teacher.php');
-				die();
-			}
+			header('location: ./views/student.php');
+			die();
 		}
+		elseif ($_SESSION['user_role'] == 'HS') {
+			header('location: ./views/teacher.php');
+			die();
+		}
+	}
 
-	if(!empty($_POST['username']) && !empty($_POST['password'])) {
+	if(!empty($_POST['username']) && !empty($_POST['password'])) 
+	{
 		$logCtrler->loginFunction($_POST['username'], $_POST['password']);
 	}
+
+	
+	// else
+	// {
+	// 	header('location: index.php');
+	// 	die();
+	// }
 
 	?>
 	

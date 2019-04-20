@@ -1,6 +1,6 @@
 <?php
-
-require '../model/Account.php';
+// session_start();
+require_once 'model/Account.php';
 /**
  * 
  */
@@ -13,7 +13,6 @@ class LoginController extends Account
 
 	function loginFunction($username, $password)
 	{
-		session_start();
 		$acc = new Account;
 		$result = $acc->getUserInfo($username, $password);
 		if($result['id'] == $username && $result['password'] == $password)
@@ -22,13 +21,13 @@ class LoginController extends Account
 			{
 				$_SESSION['user_id'] = $result['id'];
 				$_SESSION['user_role'] = $result['role'];
-				header('location: ./views/teacher/teacher.php');
+				header('location: ./views/teacher.php');
 				exit();
 			}
 			elseif ($result['role'] == 'HS') {
 				$_SESSION['user_id'] = $result['id'];
 				$_SESSION['user_role'] = $result['role'];
-				header('location: ./views/student/student.php');
+				header('location: ./views/student.php');
 				exit();
 			}
 		}
@@ -45,11 +44,11 @@ class LoginController extends Account
 		{
 			if ($_SESSION['user_role'] == 'GV')
 			{
-				header('location: ../views/student/student.php');
+				header('location: ./views/student.php');
 				die();
 			}
 			elseif ($_SESSION['user_role'] == 'HS') {
-				header('location: ../views/teacher/teacher.php');
+				header('location: ./views/teacher.php');
 				die();
 			}
 		}
