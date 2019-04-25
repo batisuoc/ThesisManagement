@@ -1,144 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Đăng ký Đồ Án</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/shop-homepage.css" rel="stylesheet">
-    <link href="css/row.css" rel="stylesheet">
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-  </head>
-
-  <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="student.php">Trang Chủ</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                  <a class="nav-link" href="#">Username</a>
-              </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Page Content -->
-    <div class="container">
-
+  <div>
+    <div class="container" style="padding-top: 60px;">
+      <h1 class="page-header">Edit Profile</h1>
       <div class="row">
-
-        <div class="col-lg-3">
-
-          <h1 class="my-4">Sinh Viên</h1>
-          <div class="list-group">
-            <a href="thongtinSV.php" class="list-group-item">Thông Tin Sinh Viên</a>
-            <a href="LuaChon.php" class="list-group-item">Danh Sách Môn Học</a>
+        <!-- left column -->
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="text-center">
+            <img src="http://lorempixel.com/200/200/people/9/" class="avatar img-circle img-thumbnail" alt="avatar">
+            <h6>Upload a different photo...</h6>
+            <input type="file" class="text-center center-block well well-sm">
           </div>
-
         </div>
-        <!-- /.col-lg-3 -->
-
-        <div class="col-lg-9">
-          <div class="container" style="padding-top: 60px;">
-            <h1 class="page-header">Edit Profile</h1>
-            <div class="row">
-              <!-- left column -->
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="text-center">
-                  <img src="http://lorempixel.com/200/200/people/9/" class="avatar img-circle img-thumbnail" alt="avatar">
-                  <h6>Upload a different photo...</h6>
-                  <input type="file" class="text-center center-block well well-sm">
-                </div>
-              </div>
-              <!-- edit form column -->
-              <div class="col-md-8 col-sm-6 col-xs-12 personal-info">
-                <h3>Personal info</h3>
-                <form class="form-horizontal" role="form">
-                  <div class="form-group">
-                    <label class="col-lg-3 control-label">First name:</label>
-                    <div class="col-lg-8">
-                      <input class="form-control" value="Jane" type="text">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="col-lg-3 control-label">Last name:</label>
-                    <div class="col-lg-8">
-                      <input class="form-control" value="Bishop" type="text">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="col-lg-3 control-label">Email:</label>
-                    <div class="col-lg-8">
-                      <input class="form-control" value="janesemail@gmail.com" type="text">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="col-md-3 control-label">Username:</label>
-                    <div class="col-md-8">
-                      <input class="form-control" value="janeuser" type="text">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="col-md-3 control-label">Password:</label>
-                    <div class="col-md-8">
-                      <input class="form-control" value="11111122333" type="password">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="col-md-3 control-label">Confirm password:</label>
-                    <div class="col-md-8">
-                      <input class="form-control" value="11111122333" type="password">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="col-md-3 control-label"></label>
-                    <div class="col-md-8">
-                      <input class="btn btn-primary" value="Save Changes" type="button">
-                      <span></span>
-                      <input class="btn btn-default" value="Cancel" type="reset">
-                    </div>
-                  </div>
-                </form>
+        <!-- edit form column -->
+        <div class="col-md-8 col-sm-6 col-xs-12 personal-info">
+          <h3>Personal info</h3>
+          <form class="form-horizontal" role="form">
+            <div class="form-group">
+              <label class="col-lg-3 control-label">First name:</label>
+              <div class="col-lg-8">
+                <input class="form-control" value="Jane" type="text">
               </div>
             </div>
-          </div>
+            <div class="form-group">
+              <label class="col-lg-3 control-label">Last name:</label>
+              <div class="col-lg-8">
+                <input class="form-control" value="Bishop" type="text">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-lg-3 control-label">Email:</label>
+              <div class="col-lg-8">
+                <input class="form-control" value="janesemail@gmail.com" type="text">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-md-3 control-label">Username:</label>
+              <div class="col-md-8">
+                <input class="form-control" value="janeuser" type="text">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-md-3 control-label">Password:</label>
+              <div class="col-md-8">
+                <input class="form-control" value="11111122333" type="password">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-md-3 control-label">Confirm password:</label>
+              <div class="col-md-8">
+                <input class="form-control" value="11111122333" type="password">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-md-3 control-label"></label>
+              <div class="col-md-8">
+                <input class="btn btn-primary" value="Save Changes" type="button">
+                <span></span>
+                <input class="btn btn-default" value="Cancel" type="reset">
+              </div>
+            </div>
+          </form>
         </div>
-        <!-- /.col-lg-9 -->
-
       </div>
-      <!-- /.row -->
-
     </div>
-    <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark" id="config">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; DoNgocKhaiTrinhHangUoc 2019</p>
-      </div>
-      <!-- /.container -->
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  </body>
-
-</html>
+  </div>
