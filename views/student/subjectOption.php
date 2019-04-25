@@ -1,0 +1,25 @@
+<div class="container" id="optionMonHoc">
+  <div class="row">
+    <div class="col-md-4" id="container1">
+      <div class = "write">
+        <a href="?p=dangkiDoAn"><img src="../images/hinh1.png" class="topdev" >
+          <p class = "write-text">Đăng Ký Đồ Án</p>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4" id="container1">
+      <div class="write">
+        <a href="?p=dsDoAnDK"><img src="../images/hinh1.png" class="topdev" >
+          <p class = "write-text">Xem Danh Sách Đồ Án Đã Đăng Ký</p>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4" id="container1">
+      <div class = "write">
+        <a href="?p=dexuatDoAn"><img src="../images/hinh1.png"class = "topdev" >
+          <p class = "write-text">Đề xuất đồ án</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
