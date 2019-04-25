@@ -24,7 +24,7 @@ class LoginController extends Account
 				header('location: ./views/teacher.php');
 				exit();
 			}
-			elseif ($result['role'] == 'HS') {
+			else if ($result['role'] == 'HS') {
 				$_SESSION['user_id'] = $result['id'];
 				$_SESSION['user_role'] = $result['role'];
 				header('location: ./views/student.php');
@@ -40,26 +40,18 @@ class LoginController extends Account
 
 	function checkLogin()
 	{
-		if (!empty($_SESSION))
+		if (!empty($_SESSION['user_id']))
 		{
 			if ($_SESSION['user_role'] == 'GV')
 			{
-				header('location: ./views/student.php');
-				die();
-			}
-			elseif ($_SESSION['user_role'] == 'HS') {
 				header('location: ./views/teacher.php');
 				die();
 			}
+			else if ($_SESSION['user_role'] == 'HS') {
+				header('location: ./views/student.php');
+				die();
+			}
 		}
-		// else
-		// {
-		// 	header('location: index.php'); 
-		// 	die();
-		// }
-		
-		
-		
 	}
 }
 

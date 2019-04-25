@@ -4,8 +4,6 @@ include 'Database.php';
 
 class Account extends Database
 {
-	protected $db;
-
 	function __construct()
 	{
 		parent::__construct();

@@ -1,25 +1,25 @@
- .write
- {
+.write {
  	border-style: ridge;
  	margin-top : 15px;
- }
- .topdev
- {
- 	width : 100%;
- 	height : 80px;
- }
- .write-text
- {
+}
+
+.topdev {
+	width : 100%;
+	height : 80px;
+}
+
+.write-text {
  	text-align:center;
+}
 
- }
- #container1{
- 	padding-top: 100px;
- }
- footer {
+#container1 {
+	padding-top: 50px;
+}
+
+footer {
  	margin-top: 310px;
+}
 
- }
- #config{
+#config {
  	margin-top:90px;
- }
+}

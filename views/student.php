@@ -53,11 +53,10 @@ if(empty($_SESSION))
 
   <!-- Page Content -->
   <div class="container">
-
+    <!-- .row -->
     <div class="row">
-
+      <!-- .col-lg-3 -->
       <div class="col-lg-3">
-
         <h1 class="my-4">Sinh Viên</h1>
         <div class="list-group">
           <a href="#" class="list-group-item">Thông Tin Sinh Viên</a>
@@ -67,8 +66,8 @@ if(empty($_SESSION))
       </div>
       <!-- /.col-lg-3 -->
 
+      <!-- .col-lg-9 -->
       <div class="col-lg-9">
-
         <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -77,15 +76,15 @@ if(empty($_SESSION))
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <img class="d-block img-fluid" src="images/hinh5.png" style=" width : 900px;
+              <img class="d-block img-fluid" src="../images/hinh5.png" style=" width : 900px;
               height:350px;" alt="First slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block img-fluid" src="images/hinh7.png" style=" width : 900px;
+              <img class="d-block img-fluid" src="../images/hinh7.png" style=" width : 900px;
               height:350px;" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block img-fluid" src="images/hinh3.png" style=" width : 900px;
+              <img class="d-block img-fluid" src="../images/hinh3.png" style=" width : 900px;
               height:350px;" alt="Third slide">
             </div>
           </div>
@@ -109,7 +108,7 @@ if(empty($_SESSION))
             <div class="write">
               <a href="#" onclick="document.getElementById('carouselExampleIndicators').innerHTML=document.getElementById('optionMonHoc').innerHTML;">
                 <img src="../images/hinh1.png" class="topdev">
-                <p class="write-text" >Môn Học</p>
+                <p class="write-text">Môn Học</p>
               </a>
             </div>
           </div>
@@ -129,15 +128,15 @@ if(empty($_SESSION))
             </div>
           </div>
           <div class="col-md-4" id="container1">
-            <div class = "write">
-              <a href="DanhSach.php"><img src="../images/hinh1.png"class = "topdev" >
+            <div class="write">
+              <a href="#" onclick="document.getElementById('carouselExampleIndicators').innerHTML=document.getElementById('DoAnDaDangKi').innerHTML;"><img src="../images/hinh1.png" class="topdev" >
                 <p class = "write-text">Xem Danh Sách Đồ Án Đã Đăng Ký</p>
               </a>
             </div>
           </div>
           <div class="col-md-4" id="container1">
             <div class = "write">
-              <a href="Dexuat.php"><img src="../images/hinh1.png"class = "topdev" >
+              <a href="#" onclick="document.getElementById('carouselExampleIndicators').innerHTML=document.getElementById('formDeXuat').innerHTML;"><img src="../images/hinh1.png"class = "topdev" >
                 <p class = "write-text">Đề xuất đồ án</p>
               </a>
             </div>
@@ -146,9 +145,69 @@ if(empty($_SESSION))
       </div>
       <!-- / Option mon hoc -->
 
+      <!-- Danh sach do an da dang ki -->
+      <div id="DoAnDaDangKi">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">STT</th>
+              <th scope="col">Môn Học</th>
+              <th scope="col">Tên Đồ Án</th>
+              <th scope="col">Số Lượng thành viên</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- / Danh sach do an da dang ki -->
+
+      <!-- Form de xuat do an -->
+      <div id="formDeXuat">
+        <form action="/action_page.php">
+          <div class="form-group">
+            <label for="subject">Tên Môn Học</label>
+            <input type="subject" class="form-control" id="subject">
+          </div>
+          <div class="form-group">
+            <label for="name">Tên Đồ Án</label>
+            <input type="name" class="form-control" id="name">
+          </div>
+          <div class="form-group">
+            <label for="goal">Mục tiêu</label>
+            <input type="goal" class="form-control" id="goal">
+          </div>
+          <div class="form-group">
+            <label for="number">Số lượng</label>
+            <input type="number" class="form-control" id="number">
+          </div>
+          <div class="form-group">
+            <label><input type="checkbox"> Bạn có thật sự muốn đề xuất đồ án ?</label>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+      <!-- Form de xuat do an -->
     </div>
     <!-- /.row -->
-
   </div>
   <!-- /.container -->
 
