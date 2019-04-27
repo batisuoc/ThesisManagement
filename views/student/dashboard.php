@@ -6,15 +6,15 @@
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
-      <img class="d-block img-fluid" src="../images/hinh5.png" style=" width : 900px;
+      <img class="d-block img-fluid" src="images/hinh5.png" style=" width : 900px;
       height:350px;" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block img-fluid" src="../images/hinh7.png" style=" width : 900px;
+      <img class="d-block img-fluid" src="images/hinh7.png" style=" width : 900px;
       height:350px;" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block img-fluid" src="../images/hinh3.png" style=" width : 900px;
+      <img class="d-block img-fluid" src="images/hinh3.png" style=" width : 900px;
       height:350px;" alt="Third slide">
     </div>
   </div>

@@ -1,24 +1,25 @@
+<?php $subject_id = $_GET['idSubj']; ?>
 <div id="formDeXuat">
-  <form action="/action_page.php">
+  <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
     <div class="form-group">
-      <label for="subject">Tên Môn Học</label>
-      <input type="subject" class="form-control" id="subject">
+      <h3><?=$_GET['nameSubj']?></h3>
     </div>
     <div class="form-group">
       <label for="name">Tên Đồ Án</label>
-      <input type="name" class="form-control" id="name">
+      <input type="name" class="form-control" name="projectName" id="name">
     </div>
     <div class="form-group">
       <label for="goal">Mục tiêu</label>
-      <input type="goal" class="form-control" id="goal">
+      <textarea class="form-control" rows="6" name="projecGoals" id="goal"></textarea>
     </div>
     <div class="form-group">
       <label for="number">Số lượng</label>
-      <input type="number" class="form-control" id="number">
+      <input type="number" class="form-control" name="projecQuantity" id="number">
     </div>
     <div class="form-group">
       <label><input type="checkbox"> Bạn có thật sự muốn đề xuất đồ án ?</label>
     </div>
-    <button type="submit" class="btn btn-default">Submit</button>
+    <input type="hidden" name="subject_id" value="<?=$subject_id?>">
+    <button type="submit" name="submit" class="btn btn-default">Submit</button>
   </form>
 </div>

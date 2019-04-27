@@ -1,6 +1,16 @@
 <?php
 session_start();
+
+// error_reporting(0);
 $p = $_GET['p'];
+
+require_once ('controller/StudentController.php');
+$studentCtrler = new StudentController;
+
+if (isset($_POST['submit'])) 
+{
+  $studentCtrler->addStudentProject($_SESSION['user_id'], $_POST['subject_id'], $_POST['projectName'], $_POST['projecGoals'], $_POST['projecQuantity']);
+}
 
 if(empty($_SESSION))
 {
@@ -23,11 +33,11 @@ if(empty($_SESSION))
   <title>Đăng ký Đồ Án</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="../css/shop-homepage.css" rel="stylesheet">
-  <link href="../css/row.css" rel="stylesheet">
+  <link href="css/shop-homepage.css" rel="stylesheet">
+  <link href="css/row.css" rel="stylesheet">
 
 </head>
 
@@ -46,7 +56,7 @@ if(empty($_SESSION))
             <a class="nav-link" href="#"><?= $_SESSION['user_id'] ?></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="../controller/logout.php">Đăng xuất</a>
+            <a class="nav-link" href="controller/logout.php">Đăng xuất</a>
           </li>
         </ul>
       </div>
@@ -74,22 +84,22 @@ if(empty($_SESSION))
 
         switch ($p) {
           case 'listDSMonHoc':
-            require 'student/listSubject.php';
+            require 'views/student/listSubject.php';
             break;
           case 'menuMonHoc':
-            require 'student/subjectOption.php';
+            require 'views/student/subjectOption.php';
             break;
           case 'dexuatDoAn':
-            require 'student/subjectProposeForm.php';
+            require 'views/student/subjectProposeForm.php';
             break;
           case 'dangkiDoAn':
-            require 'student/regisProject.php';
+            require 'views/student/regisProject.php';
             break;
           case 'dsDoAnDK':
-            require 'student/listRegisteredProject.php';
+            require 'views/student/listRegisteredProject.php';
             break;
           default:
-            require 'student/dashboard.php';
+            require 'views/student/dashboard.php';
             break;
         }
 
@@ -110,8 +120,8 @@ if(empty($_SESSION))
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="../vendor/jquery/jquery.min.js"></script>
-  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

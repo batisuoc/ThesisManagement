@@ -20,6 +20,7 @@ class Account extends Database
 		$password = $this->conn->escape_string($pass);
 		$sql= "SELECT * FROM account WHERE id='$username' AND password ='$password'";
 		$kq = $this->conn->query($sql);
+		$this->conn->close();
 		if ($kq->num_rows == 0) return FALSE;
 		else return $kq->fetch_assoc();
 	}

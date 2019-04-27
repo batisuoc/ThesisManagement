@@ -21,13 +21,13 @@ class LoginController extends Account
 			{
 				$_SESSION['user_id'] = $result['id'];
 				$_SESSION['user_role'] = $result['role'];
-				header('location: ./views/teacher.php');
+				header('location: ./teacher.php');
 				exit();
 			}
 			else if ($result['role'] == 'HS') {
 				$_SESSION['user_id'] = $result['id'];
 				$_SESSION['user_role'] = $result['role'];
-				header('location: ./views/student.php');
+				header('location: ./student.php');
 				exit();
 			}
 		}
@@ -44,11 +44,11 @@ class LoginController extends Account
 		{
 			if ($_SESSION['user_role'] == 'GV')
 			{
-				header('location: ./views/teacher.php');
+				header('location: ./teacher.php');
 				die();
 			}
 			else if ($_SESSION['user_role'] == 'HS') {
-				header('location: ./views/student.php');
+				header('location: ./student.php');
 				die();
 			}
 		}

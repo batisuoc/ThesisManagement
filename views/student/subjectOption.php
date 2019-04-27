@@ -1,22 +1,29 @@
+<?php 
+
+$idSubject = $_GET['idSubject'];
+$nameSubject = $_GET['subjectName'];
+
+?>
 <div class="container" id="optionMonHoc">
+  <h3><?= $nameSubject ?></h3>
   <div class="row">
     <div class="col-md-4" id="container1">
       <div class = "write">
-        <a href="?p=dangkiDoAn"><img src="../images/hinh1.png" class="topdev" >
+        <a href="?p=dangkiDoAn"><img src="images/hinh1.png" class="topdev" >
           <p class = "write-text">Đăng Ký Đồ Án</p>
         </a>
       </div>
     </div>
     <div class="col-md-4" id="container1">
       <div class="write">
-        <a href="?p=dsDoAnDK"><img src="../images/hinh1.png" class="topdev" >
-          <p class = "write-text">Xem Danh Sách Đồ Án Đã Đăng Ký</p>
+        <a href="?p=dsDoAnDK"><img src="images/hinh1.png" class="topdev" >
+          <p class = "write-text">Danh Sách Đồ Án Đã Đăng Ký</p>
         </a>
       </div>
     </div>
     <div class="col-md-4" id="container1">
-      <div class = "write">
-        <a href="?p=dexuatDoAn"><img src="../images/hinh1.png"class = "topdev" >
+      <div class="write">
+        <a href="?p=dexuatDoAn&idSubj=<?=$idSubject?>&nameSubj=<?=$nameSubject?>"><img src="images/hinh1.png"class = "topdev" >
           <p class = "write-text">Đề xuất đồ án</p>
         </a>
       </div>
