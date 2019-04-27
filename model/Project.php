@@ -32,6 +32,19 @@ class Project extends Database
 		if ($result->num_rows == 0) return FALSE;
 		else return $result->fetch_assoc();
 	}
+
+	function getProjectInfo($userid, $subj_id)
+	{
+		$userid = $this->conn->escape_string($userid);
+		$subj_id = $this->conn->escape_string($subj_id);
+		$sql = "SELECT project.name, project.goal, project.status
+				FROM project, student_project
+				WHERE project.id = student_project.project_id AND project.subject_id = '$subj_id' AND student_project.student_id = '$userid'";
+		$result = $this->conn->query($sql);
+		$this->conn->close();
+		if ($result->num_rows == 0) return FALSE;
+		else return $result->fetch_assoc();
+	}
 }
 
 ?>

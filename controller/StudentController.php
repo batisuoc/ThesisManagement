@@ -28,6 +28,11 @@ class StudentController extends Subject
 		$result = $this->project->getProjectId($proj_name, $subj_id);
 		$this->student->insertStudentProject($userid, $result['id']);
 	}
+
+	function getProjectInfo($userid, $subj_id)
+	{
+		return $this->project->getProjectInfo($userid, $subj_id);
+	}
 }
 
 ?>

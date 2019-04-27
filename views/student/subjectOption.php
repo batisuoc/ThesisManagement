@@ -16,7 +16,7 @@ $nameSubject = $_GET['subjectName'];
     </div>
     <div class="col-md-4" id="container1">
       <div class="write">
-        <a href="?p=dsDoAnDK"><img src="images/hinh1.png" class="topdev" >
+        <a href="?p=dsDoAnDK&idSubj=<?=$idSubject?>&nameSubj=<?=$nameSubject?>"><img src="images/hinh1.png" class="topdev" >
           <p class = "write-text">Danh Sách Đồ Án Đã Đăng Ký</p>
         </a>
       </div>
