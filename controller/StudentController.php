@@ -4,7 +4,7 @@ require_once ('model/Subject.php');
 require_once ('model/Project.php');
 require_once ('model/Student.php');
 
-class StudentController extends Subject
+class StudentController
 {
 	private $subject;
 	private $project;

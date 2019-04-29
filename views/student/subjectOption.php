@@ -9,21 +9,24 @@ $nameSubject = $_GET['subjectName'];
   <div class="row">
     <div class="col-md-4" id="container1">
       <div class = "write">
-        <a href="?p=dangkiDoAn"><img src="images/hinh1.png" class="topdev" >
+        <a href="?p=dangkiDoAn">
+          <img src="images/hinh1.png" class="topdev" >
           <p class = "write-text">Đăng Ký Đồ Án</p>
         </a>
       </div>
     </div>
     <div class="col-md-4" id="container1">
       <div class="write">
-        <a href="?p=dsDoAnDK&idSubj=<?=$idSubject?>&nameSubj=<?=$nameSubject?>"><img src="images/hinh1.png" class="topdev" >
-          <p class = "write-text">Danh Sách Đồ Án Đã Đăng Ký</p>
+        <a href="?p=dsDoAnDK&idSubj=<?=$idSubject?>&nameSubj=<?=$nameSubject?>">
+          <img src="images/hinh1.png" class="topdev" >
+          <p class = "write-text">Đồ Án Đã Đăng Ký</p>
         </a>
       </div>
     </div>
     <div class="col-md-4" id="container1">
       <div class="write">
-        <a href="?p=dexuatDoAn&idSubj=<?=$idSubject?>&nameSubj=<?=$nameSubject?>"><img src="images/hinh1.png"class = "topdev" >
+        <a href="?p=dexuatDoAn&idSubj=<?=$idSubject?>&nameSubj=<?=$nameSubject?>">
+          <img src="images/hinh1.png"class = "topdev" >
           <p class = "write-text">Đề xuất đồ án</p>
         </a>
       </div>

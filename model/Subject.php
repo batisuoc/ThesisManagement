@@ -18,6 +18,18 @@ class Subject extends Database
 		if (!$kq) echo "Query Error";
 		else return $kq;
 	}
+
+	function getTeacherListSubject($teacher_id)
+	{
+		$teacher_id = $this->conn->escape_string($teacher_id);
+		$sql = "SELECT id, name 
+				FROM subject 
+				WHERE teacher_id='$teacher_id'";
+		$result = $this->conn->query($sql);
+		$this->conn->close();
+		if (!$result) echo "Query Error";
+		else return $result;
+	}
 }
 
 ?>
