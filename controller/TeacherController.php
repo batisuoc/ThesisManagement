@@ -18,6 +18,11 @@ class TeacherController
 	{
 		return $this->subject->getTeacherListSubject($teacher_id);
 	}
+
+	function getListProject($teacher_id, $subject_id)
+	{
+		return $this->project->getTeacherProjects($teacher_id, $subject_id);
+	}
 }
 
 ?>

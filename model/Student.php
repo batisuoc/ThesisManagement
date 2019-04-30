@@ -23,7 +23,7 @@ class Student extends Database
 		$sql = "INSERT INTO student_project VALUES ('$userid',$proj_id)";
 		if($this->conn->query($sql) == true)
 		{
-			echo "Records inserted successfully.";
+			// echo "Records inserted successfully.";
 		} 
 		else
 		{

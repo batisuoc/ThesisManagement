@@ -92,7 +92,7 @@ if(empty($_SESSION))
             require 'views/student/regisProject.php';
             break;
           case 'dsDoAnDK':
-            require 'views/student/listRegisteredProject.php';
+            require 'views/student/RegisteredProject.php';
             break;
           default:
             require 'views/student/dashboard.php';

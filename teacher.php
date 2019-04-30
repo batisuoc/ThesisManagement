@@ -69,7 +69,6 @@ if(empty($_SESSION))
       </div>
       <!-- /.col-lg-3 -->
 
-      <!-- .col-lg-9 -->
       <div class="col-lg-9">
         <?php
 
@@ -79,6 +78,15 @@ if(empty($_SESSION))
             break;
           case 'menuMonHoc':
             require 'views/teacher/subjectOption.php';
+            break;
+          case 'listDoAnDeXuat':
+            require 'views/teacher/listProposeProject.php';
+            break;
+          case 'listDoAnDangKi':
+            require 'views/teacher/listRegisteredProject.php';
+            break;
+          case 'listDoAn':
+            require 'views/teacher/listProject.php';
             break;
           default:
             require 'views/teacher/dashboard.php';
