@@ -9,7 +9,7 @@ $studentCtrler = new StudentController;
 
 if (isset($_POST['submit'])) 
 {
-  $studentCtrler->addStudentProject($_SESSION['user_id'], $_POST['subject_id'], $_POST['projectName'], $_POST['projecGoals'], $_POST['projecQuantity']);
+  $studentCtrler->addStudentProject($_SESSION['user_id'], $_POST['subject_id'], $_POST['projectName'], $_POST['projecGoals'], $_POST['projecQuantity'], 0);
 }
 
 if(empty($_SESSION))

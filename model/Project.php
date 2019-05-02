@@ -7,10 +7,12 @@ class Project extends Database
 		parent::__construct();
 	}
 
-	function insertProject($subj_id, $proj_name, $goal, $quantity)
+	function insertProject($subj_id, $proj_name, $goal, $quantity, $status)
 	{
+		$status = ($status == 1) ? 1 : 0;
 		settype($quantity, "int");
-		$sql = "INSERT INTO project(name,goal,numofstudent,status,subject_id) VALUES ('$proj_name','$goal',$quantity,0,'$subj_id')";
+		settype($status, "int");
+		$sql = "INSERT INTO project(name,goal,numofstudent,status,subject_id) VALUES ('$proj_name','$goal',$quantity,$status,'$subj_id')";
 		if($this->conn->query($sql) == true)
 		{
 			// echo "Records inserted successfully.";

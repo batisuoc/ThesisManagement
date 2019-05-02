@@ -23,6 +23,11 @@ class TeacherController
 	{
 		return $this->project->getTeacherProjects($teacher_id, $subject_id);
 	}
+
+	function addProject($subj_id, $proj_name, $goal, $quantity, $status)
+	{
+		$this->project->insertProject($subj_id, $proj_name, $goal, $quantity, $status);
+	}
 }
 
 ?>

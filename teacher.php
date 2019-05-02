@@ -12,6 +12,11 @@ if(empty($_SESSION))
   die();
 }
 
+if (isset($_POST['projectName']) && isset($_POST['projecGoals']) && isset($_POST['numberPeople'])) 
+{
+  $teacherCtrler->addProject($_POST['subject_id'], $_POST['projectName'], $_POST['projecGoals'], $_POST['numberPeople'], 1);
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -87,6 +92,9 @@ if(empty($_SESSION))
             break;
           case 'listDoAn':
             require 'views/teacher/listProject.php';
+            break;
+          case 'createProject':
+            require 'views/teacher/createNewProjectForm.php';
             break;
           default:
             require 'views/teacher/dashboard.php';
