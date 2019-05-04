@@ -19,18 +19,20 @@ class Student extends Database
 
 	function insertStudentProject($userid, $proj_id)
 	{
+		$userid = $this->conn->escape_string($userid);
 		settype($proj_id, "int");
 		$sql = "INSERT INTO student_project VALUES ('$userid',$proj_id)";
 		if($this->conn->query($sql) == true)
 		{
-			// echo "Records inserted successfully.";
+			return true;
 		} 
 		else
 		{
-			echo "ERROR: Could not able to execute $sql. ";
+			return false;
 		}
 		$this->conn->close();
 	}
+
 }
 
 ?>

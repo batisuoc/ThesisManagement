@@ -31,7 +31,17 @@ class StudentController
 
 	function getProjectInfo($userid, $subj_id)
 	{
-		return $this->project->getProjectInfo($userid, $subj_id);
+		return $this->project->getStudentProjectInfo($userid, $subj_id);
+	}
+
+	function getListProject($subj_id)
+	{
+		return $this->project->getListProject($subj_id);
+	}
+
+	function regisProject($student_id, $project_id)
+	{
+		return $this->student->insertStudentProject($student_id, $project_id);
 	}
 }
 

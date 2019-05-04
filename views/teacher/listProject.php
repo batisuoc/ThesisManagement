@@ -1,27 +1,38 @@
+<?php
+$count = 1;
+$listProject = $teacherCtrler->getListProject($_SESSION['user_id'], $_GET['subj_id'], 1);
+?>
 <div class="lstProject">
 	<div class="createProject">
 		<a href="?p=createProject&id=<?=$_GET['subj_id']?>&name=<?=$_GET['subj_name']?>"><input type="button" name="create_project" value="Tạo đề bài mới"></a>
 	</div>
-	<div class="listProject">
-		<table class="table table-striped">
-			<thead>
-				<tr>
-					<th scope="col">STT</th>
-					<th scope="col">Đồ Án</th>
-					<th scope="col">Mục Tiêu</th>
-					<th scope="col">Số Lượng</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<th scope="row">1</th>
-					<td>Mark</td>
-					<td>Otto</td>
-					<td>@mdo</td>
-					<td><button>Chỉnh sửa</button></td>
-					<td><button>Xóa</button></td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+	
+	<?php if ($listProject == false) { ?>
+		<h4>Chưa có đề bài được tạo</h4>
+	<?php } else { ?>
+		<div class="listProject">
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th scope="col">STT</th>
+						<th scope="col">Tên đồ án</th>
+						<th scope="col">Mục tiêu</th>
+						<th scope="col">Số Lượng đăng kí<br>cho phép</th>
+					</tr>
+				</thead>
+				<tbody>
+					<?php while ($rowPj = $listProject->fetch_assoc() ) { ?>
+						<tr>
+							<th scope="row"><?= $count ?></th>
+							<td><?= $rowPj['name'] ?></td>
+							<td><?= $rowPj['goal'] ?></td>
+							<td><?= $rowPj['numofstudent'] ?></td>
+							<td><a class="btn btn-info" href="?p=editProject">Chỉnh sửa</a></td>
+							<td><a class="btn btn-outline-danger" href="#">Xóa</a></td>
+						</tr>
+					<?php $count++; }?>	
+				</tbody>
+			</table>
+		</div>
+	<?php } ?>
 </div>

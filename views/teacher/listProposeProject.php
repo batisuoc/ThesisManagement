@@ -1,5 +1,9 @@
-<?php $result = $teacherCtrler->getListProject($_SESSION['user_id'], $_GET['subj_id']); ?>
-<?php if ($result == false) { ?>
+<?php 
+$listProposeProj = $teacherCtrler->getListProject($_SESSION['user_id'], $_GET['subj_id'], 0);
+$status = 0;
+?>
+
+<?php if ($listProposeProj == false) { ?>
   <h3 class="nopropose">Chưa có sinh viên đề xuất</h3>
 <?php } else { ?>
 <div>
@@ -12,13 +16,13 @@
       </tr>
     </thead>
     <tbody>
-      <?php while ( $rowLT = $result->fetch_assoc() ) { ?>
-        <?php $status = ($rowLT['status'] == 1) ? "Đã duyệt" : "Chưa duyệt" ?>
+      <?php while ( $rowPP = $listProposeProj->fetch_assoc() ) { ?>
+        <?php $status = ($rowPP['status'] == 1) ? "Đã duyệt" : "Chưa duyệt" ?>
         <tr>
-          <th scope="row"><?= $rowLT['name'] ?></th>
-          <td><?= $rowLT['numofstudent'] ?></td>
+          <th scope="row"><?= $rowPP['name'] ?></th>
+          <td><?= $rowPP['numofstudent'] ?></td>
           <td><?= $status ?></td>
-          <td><a href="#">Chi Tiết</a></td>
+          <td><a href="#">Chi tiết</a></td>
           <td><button class="btn btn-default">Phê duyệt</button></td>
         </tr>
       <?php } ?>

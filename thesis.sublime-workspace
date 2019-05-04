@@ -1,0 +1,894 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"echo\techo \"…\""
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"for",
+				"form-control \tBootstrap 3 Class"
+			],
+			[
+				"h",
+				"h4\tTag"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"tea",
+				"teacherCtrler"
+			],
+			[
+				"fun",
+				"fun\tfunction …"
+			],
+			[
+				"sub",
+				"subject"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"pri",
+				"private"
+			],
+			[
+				"pa",
+				"padding-top\tproperty"
+			],
+			[
+				"row",
+				"rowLT"
+			],
+			[
+				"fetch_a",
+				"cubrid_fetch_assoc"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"LOgin",
+				"LoginController"
+			],
+			[
+				"req",
+				"req1\trequire_once …"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"int",
+				"into"
+			],
+			[
+				"stu",
+				"student"
+			],
+			[
+				"te",
+				"teacher"
+			],
+			[
+				"pr",
+				"primary"
+			],
+			[
+				"new",
+				"newsManage"
+			],
+			[
+				"ml",
+				"ml-auto \tBootstrap 4 Class"
+			],
+			[
+				"boo",
+				"bootstrap"
+			],
+			[
+				"navbar-ri",
+				"navbar-right \tBootstrap 3 Class"
+			],
+			[
+				"navbar-to",
+				"navbar-toggle \tBootstrap 3 Class"
+			],
+			[
+				"nav-te",
+				"navbar-text \tBootstrap 3 Class"
+			],
+			[
+				"navbar-l",
+				"navbar-light \tBootstrap 4 Class"
+			],
+			[
+				"nav-e",
+				"navbar-expand-sm \tBootstrap 4 Class"
+			],
+			[
+				"bg-",
+				"bg-light \tBootstrap 4 Class"
+			],
+			[
+				"na",
+				"navbar \tBootstrap 3 Class"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"btn",
+				"btn-light \tBootstrap 4 Class"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"float",
+				"float-none \tBootstrap 4 Class"
+			],
+			[
+				"sp",
+				"space-between\tjustify-content"
+			],
+			[
+				"al",
+				"align-content\tproperty"
+			],
+			[
+				"form",
+				"form-horizontal \tBootstrap 3 Class"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"use",
+				"username"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"sc",
+				"schoolFee"
+			],
+			[
+				"mo",
+				"moneyPay"
+			],
+			[
+				"aler",
+				"alert-warning \tBootstrap 3 Class"
+			],
+			[
+				"is",
+				"isFormValid"
+			],
+			[
+				"link",
+				"btn-link \tBootstrap 3 Class"
+			],
+			[
+				"cen",
+				"text-center \tBootstrap 3 Class"
+			],
+			[
+				"ba",
+				"balance"
+			],
+			[
+				"ph",
+				"phone"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"load",
+				"loadBankAccountData"
+			],
+			[
+				"str_rep",
+				"str_replace"
+			],
+			[
+				"arrya",
+				"array"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"su",
+				"studentData"
+			],
+			[
+				"js",
+				"jsonData"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"sut",
+				"student_id"
+			],
+			[
+				"subj",
+				"subj_id"
+			],
+			[
+				"st",
+				"student"
+			],
+			[
+				"_S",
+				"_SESSION"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"opt",
+				"opt"
+			],
+			[
+				"n",
+				"null"
+			],
+			[
+				"regis",
+				"regis_id"
+			],
+			[
+				"cel",
+				"cellspacing\tAttr"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"fon",
+				"font-weight\tproperty"
+			],
+			[
+				"bank",
+				"bank_account"
+			],
+			[
+				"tran",
+				"trans_id"
+			],
+			[
+				"tr",
+				"trans_id"
+			],
+			[
+				"stud",
+				"student_course"
+			],
+			[
+				"cou",
+				"course"
+			],
+			[
+				"co",
+				"course"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "views/student/subjectOption.php",
+			"settings":
+			{
+				"buffer_size": 1082,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "student.php",
+			"settings":
+			{
+				"buffer_size": 3474,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/student/regisProject.php",
+			"settings":
+			{
+				"buffer_size": 401,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "model/Project.php",
+			"settings":
+			{
+				"buffer_size": 2614,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controller/StudentController.php",
+			"settings":
+			{
+				"buffer_size": 882,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/row.css",
+			"settings":
+			{
+				"buffer_size": 281,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"ayu",
+				"ayu: Activate theme"
+			],
+			[
+				"INstall",
+				"Package Control: Install Package"
+			],
+			[
+				"Inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/opt/lampp/htdocs/thesis",
+		"/opt/lampp/htdocs/thesis/controller",
+		"/opt/lampp/htdocs/thesis/model",
+		"/opt/lampp/htdocs/thesis/others",
+		"/opt/lampp/htdocs/thesis/views",
+		"/opt/lampp/htdocs/thesis/views/student"
+	],
+	"file_history":
+	[
+		"/opt/lampp/htdocs/thesis/model/Project.php",
+		"/opt/lampp/htdocs/thesis/views/student/listSubject.php",
+		"/opt/lampp/htdocs/thesis/views/teacher/listProject.php",
+		"/opt/lampp/htdocs/thesis/views/teacher/subjectOption.php",
+		"/opt/lampp/htdocs/thesis/teacher.php",
+		"/opt/lampp/htdocs/thesis/views/teacher/listProposeProject.php",
+		"/opt/lampp/htdocs/thesis/controller/TeacherController.php",
+		"/opt/lampp/htdocs/thesis/thesis.sublime-project",
+		"/opt/lampp/htdocs/thesis/views/teacher/editProject.php",
+		"/opt/lampp/htdocs/thesis/views/student/subjectProposeForm.php",
+		"/opt/lampp/htdocs/thesis/views/teacher/ProposeProjectDetails.php",
+		"/opt/lampp/htdocs/thesis/controller/StudentController.php",
+		"/opt/lampp/htdocs/thesis/views/teacher/createNewProjectForm.php",
+		"/opt/lampp/htdocs/thesis/student.php",
+		"/opt/lampp/htdocs/thesis/views/student/RegisteredProject.php",
+		"/opt/lampp/htdocs/thesis/views/teacher/listTeachingSubject.php",
+		"/opt/lampp/htdocs/thesis/views/student/regisProject.php",
+		"/opt/lampp/htdocs/thesis/views/teacher/dashboard.php",
+		"/opt/lampp/htdocs/thesis/model/Subject.php",
+		"/opt/lampp/htdocs/thesis/controller/process.php",
+		"/opt/lampp/htdocs/thesis/views/student/subjectOption.php",
+		"/opt/lampp/htdocs/thesis/others/DangKyGV.php",
+		"/opt/lampp/htdocs/thesis/others/MonHocGV.php",
+		"/opt/lampp/htdocs/thesis/others/luachonGV.php",
+		"/opt/lampp/htdocs/thesis/others/PheDuyet.php",
+		"/opt/lampp/htdocs/thesis/views/student/dashboard.php",
+		"/opt/lampp/htdocs/thesis/others/thongtinGV.php",
+		"/opt/lampp/htdocs/thesis/views/student/listRegisteredProject.php",
+		"/opt/lampp/htdocs/thesis/sql_script/ProjectManagement.sql",
+		"/opt/lampp/htdocs/thesis/model/Student.php",
+		"/opt/lampp/htdocs/thesis/controller/SubmitForm.php",
+		"/opt/lampp/htdocs/thesis/controller/controller.php",
+		"/opt/lampp/htdocs/thesis/controller/LoginController.php",
+		"/opt/lampp/htdocs/thesis/index.php",
+		"/opt/lampp/htdocs/thesis/model/Account.php",
+		"/opt/lampp/htdocs/thesis/model/Database.php",
+		"/opt/lampp/htdocs/thesis/views/student.php",
+		"/opt/lampp/htdocs/thesis/others/LuaChon.php",
+		"/opt/lampp/htdocs/thesis/others/Dexuat.php",
+		"/opt/lampp/htdocs/thesis/others/DanhSach.php",
+		"/opt/lampp/htdocs/thesis/others/DangKy.php",
+		"/opt/lampp/htdocs/thesis/others/MonHoc.php",
+		"/opt/lampp/htdocs/thesis/views/student/registeredProject.php",
+		"/opt/lampp/htdocs/thesis/others/thongtinSV.php",
+		"/opt/lampp/htdocs/thesis/others/example.php",
+		"/opt/lampp/htdocs/thesis/controller/logout.php",
+		"/opt/lampp/htdocs/thesis/views/student/student.php",
+		"/opt/lampp/htdocs/thesis/database/config.php",
+		"/opt/lampp/htdocs/thesis/vendor/bootstrap/css/bootstrap.css",
+		"/opt/lampp/htdocs/thesis/views/teacher.php",
+		"/mnt/storage/Documents/IT_documents/University/2_Second_Year/CSDL/Assignment_New/Assignment_02/51503032_TrinhHangUoc_51503129_PhanVanTuan/World_Cup_2018.sql",
+		"/opt/lampp/htdocs/thesis/model/Phone_Model.php",
+		"/opt/lampp/htdocs/thesis/process.php",
+		"/opt/lampp/htdocs/thesis/Phone_Model.php",
+		"/opt/lampp/htdocs/thesis/controller.php",
+		"/opt/lampp/htdocs/thesis/index.html",
+		"/opt/lampp/htdocs/thesis/index1.php",
+		"/mnt/storage/Documents/IT_documents/Nhat_Nghe/Web_tin_tuc/conf/.gitkeep",
+		"/mnt/storage/Documents/IT_documents/Nhat_Nghe/Web_tin_tuc/www/index.php",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/SOA/MidTerm/iBankingPayment/database/iBankingPayment.sql",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Software_Engineering/sample_code/index.php",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Software_Engineering/docker-lamp/README.md",
+		"/mnt/storage/Documents/IT_documents/Hacking/pydictor/README_CN.md",
+		"/mnt/storage/Documents/IT_documents/Hacking/pydictor/README.md",
+		"/mnt/storage/Documents/IT_documents/Hacking/Wifi_Hacking/pass_wifi.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/SOA/MidTerm/iBankingPayment/php/index.php",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Lexical_Analysis/resources/input/Test05.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Lexical_Analysis/resources/input/Test07.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Software_Engineering/docker-lamp/dump/myDb.sql",
+		"/home/batisuoc/website/index.html",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Software_Engineering/docker-lamp/docker-compose.yml",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Software_Engineering/docker-lamp/www/index.php",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Lexical_Analysis/resources/input/Test01.txt",
+		"/mnt/storage/Documents/After_install_ubuntu_command.txt",
+		"/mnt/storage/Documents/.debris/tmp/lock",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Lexical_Analysis/resources/output/Out01.txt",
+		"/media/batisuoc/WINSETUP/documents/After_install_ubuntu_command.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Lexical_Analysis/resources/output/Out07.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Lexical_Analysis/resources/input/Out00.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Testcase/Output/Out05.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Lexical_Analysis/resources/output/Output05.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Lexical_Analysis/resources/input/Output05.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Lexical_Analysis/resources/input/Test06.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Testcase/Output/Out06.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/SOA/Seminar/wget_download.txt",
+		"/mnt/storage/Downloads/link_boostrap.txt",
+		"/home/batisuoc/.cache/.fr-Ds9MMR/idea-IC-191.6183.87/Install-Linux-tar.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Testcase/Output/Out04.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Testcase/Output/Out03.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Testcase/Output/Out02.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Testcase/Output/Out01.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Testcase/Input/Test06.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Testcase/Input/Test03.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Testcase/Input/Test01.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Testcase/Input/Test02.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Testcase/Input/Test05.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Lexical_Analysis/resources/input/Test03.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Testcase/Input/Test04.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Lexical_Analysis/resources/input/Test04.txt",
+		"/mnt/storage/Documents/Dual_boot_Setup.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Testcase/Out01.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Lexical/Out01.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Final_Project/Lexical/Out04.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Lab/ListOfKEYWORDSInJAVA.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Lab/Test_ex4.java",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Lab/XuLyFileCode.java",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/IT_Project_01/Window_Build/3D_Projects/3DEngineStructure/data/Scenes/SM.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/IT_Project_01/Window_Build/3D_Projects/3DEngineStructure/data/Resources/RM.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Lab/LabQT2/Lab2/input3.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Lab/LabQT2/Lab2/input2.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Programming_Language/Lab/LabQT2/Lab2/input1.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/SOA/MidTerm/iBankingPayment/README.md",
+		"/opt/lampp/htdocs/iBankingPayment/otpVerify.php",
+		"/opt/lampp/htdocs/iBankingPayment/LoginPage.php",
+		"/opt/lampp/htdocs/iBankingPayment/logout.php",
+		"/opt/lampp/htdocs/iBankingPayment/VerifySuccessfulPage.php",
+		"/opt/lampp/htdocs/iBankingPayment/action_after_verified.php",
+		"/opt/lampp/htdocs/iBankingPayment/loadBankAccountData.php",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Enterprise_Service_Oriented_Architecture/MidTerm/iBankingPayment/php/style.css",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Enterprise_Service_Oriented_Architecture/MidTerm/iBankingPayment/php/ci.php",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Enterprise_Service_Oriented_Architecture/MidTerm/iBankingPayment/php/loadBankAccountData.php",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Enterprise_Service_Oriented_Architecture/MidTerm/iBankingPayment/README.md",
+		"/etc/vsftpd.conf",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Enterprise_Service_Oriented_Architecture/Seminar/Dockerfile",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Enterprise_Service_Oriented_Architecture/Seminar/Docker_Cheatsheet.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Enterprise_Service_Oriented_Architecture/Seminar/soa.txt",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Enterprise_Service_Oriented_Architecture/Seminar/web_services_system/docker-compose.yml",
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Enterprise_Service_Oriented_Architecture/Seminar/docker_tomcat/Dockerfile"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"carouselExampleIndicators"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "views/student/subjectOption.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1082,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								427,
+								427
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "student.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3474,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								64
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/student/regisProject.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								233
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "model/Project.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1081,
+								1081
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 699.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "controller/StudentController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 882,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								827,
+								827
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "css/row.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								138,
+								138
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.700870323434,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "thesis.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 281.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

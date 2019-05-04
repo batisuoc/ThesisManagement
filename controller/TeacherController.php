@@ -19,9 +19,9 @@ class TeacherController
 		return $this->subject->getTeacherListSubject($teacher_id);
 	}
 
-	function getListProject($teacher_id, $subject_id)
+	function getListProject($teacher_id, $subject_id, $status)
 	{
-		return $this->project->getTeacherProjects($teacher_id, $subject_id);
+		return $this->project->getTeacherProjects($teacher_id, $subject_id, $status);
 	}
 
 	function addProject($subj_id, $proj_name, $goal, $quantity, $status)
