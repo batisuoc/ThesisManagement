@@ -107,6 +107,21 @@ class Project extends Database
 		if ($result->num_rows == 0) return FALSE;
 		else return $result;
 	}
+
+	function deleteProject($project_id)
+	{
+		settype($project_id, "int");
+		$sql = "DELETE FROM project WHERE id = $project_id";
+		if ($this->conn->query($sql)) 
+		{
+			return true;
+		}
+		else
+		{
+			// echo("Error description: " . mysqli_error($this->conn));
+			return false;
+		}
+	}
 }
 
 ?>

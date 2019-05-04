@@ -126,6 +126,9 @@ if (isset($_POST['projectName']) && isset($_POST['projecGoals']) && isset($_POST
 					case 'editProject':
 						require 'views/teacher/editProject.php';
 						break;
+					case 'deleteProject':
+						require 'views/teacher/deleteProject.php';
+						break;
 					default:
 						require 'views/teacher/dashboard.php';
 						break;

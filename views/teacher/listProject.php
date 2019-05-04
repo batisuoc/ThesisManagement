@@ -4,7 +4,7 @@ $listProject = $teacherCtrler->getListProject($_SESSION['user_id'], $_GET['subj_
 ?>
 <div class="lstProject">
 	<div class="createProject">
-		<a href="?p=createProject&id=<?=$_GET['subj_id']?>&name=<?=$_GET['subj_name']?>"><input type="button" name="create_project" value="Tạo đề bài mới"></a>
+		<a href="?p=createProject&id=<?=$_GET['subj_id']?>&name=<?=$_GET['subj_name']?>"><input type="button" class="btn btn-primary" name="create_project" value="Tạo đề bài mới"></a>
 	</div>
 	
 	<?php if ($listProject == false) { ?>
@@ -17,7 +17,7 @@ $listProject = $teacherCtrler->getListProject($_SESSION['user_id'], $_GET['subj_
 						<th scope="col">STT</th>
 						<th scope="col">Tên đồ án</th>
 						<th scope="col">Mục tiêu</th>
-						<th scope="col">Số Lượng đăng kí<br>cho phép</th>
+						<th scope="col">Số lượng</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -28,7 +28,7 @@ $listProject = $teacherCtrler->getListProject($_SESSION['user_id'], $_GET['subj_
 							<td><?= nl2br($rowPj['goal']) ?></td>
 							<td><?= $rowPj['numofstudent'] ?></td>
 							<td><a class="btn btn-info" href="?p=editProject&id=<?=$rowPj['id']?>&name=<?=$rowPj['name']?>&goal=<?=$rowPj['goal']?>&num=<?=$rowPj['numofstudent']?>">Chỉnh sửa</a></td>
-							<td><a class="btn btn-outline-danger" href="#">Xóa</a></td>
+							<td><a class="btn btn-outline-danger" href="?p=deleteProject&id=<?=$rowPj['id']?>">Xóa</a></td>
 						</tr>
 					<?php $count++; }?>	
 				</tbody>

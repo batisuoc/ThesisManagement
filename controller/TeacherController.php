@@ -38,6 +38,11 @@ class TeacherController
 	{
 		return $this->project->updateProject($proj_id, $proj_name, $proj_goal, $proj_num);
 	}
+
+	function removeProject($project_id)
+	{
+		return $this->project->deleteProject($project_id);
+	}
 }
 
 ?>
