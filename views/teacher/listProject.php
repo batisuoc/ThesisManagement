@@ -25,9 +25,9 @@ $listProject = $teacherCtrler->getListProject($_SESSION['user_id'], $_GET['subj_
 						<tr>
 							<th scope="row"><?= $count ?></th>
 							<td><?= $rowPj['name'] ?></td>
-							<td><?= $rowPj['goal'] ?></td>
+							<td><?= nl2br($rowPj['goal']) ?></td>
 							<td><?= $rowPj['numofstudent'] ?></td>
-							<td><a class="btn btn-info" href="?p=editProject">Chỉnh sửa</a></td>
+							<td><a class="btn btn-info" href="?p=editProject&id=<?=$rowPj['id']?>&name=<?=$rowPj['name']?>&goal=<?=$rowPj['goal']?>&num=<?=$rowPj['numofstudent']?>">Chỉnh sửa</a></td>
 							<td><a class="btn btn-outline-danger" href="#">Xóa</a></td>
 						</tr>
 					<?php $count++; }?>	

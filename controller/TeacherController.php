@@ -26,7 +26,17 @@ class TeacherController
 
 	function addProject($subj_id, $proj_name, $goal, $quantity, $status)
 	{
-		$this->project->insertProject($subj_id, $proj_name, $goal, $quantity, $status);
+		return $this->project->insertProject($subj_id, $proj_name, $goal, $quantity, $status);
+	}
+
+	function verifyProject($proj_id)
+	{
+		return $this->project->updateProjectStatus($proj_id);
+	}
+
+	function updateProjectInfo($proj_id, $proj_name, $proj_goal, $proj_num)
+	{
+		return $this->project->updateProject($proj_id, $proj_name, $proj_goal, $proj_num);
 	}
 }
 

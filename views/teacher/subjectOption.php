@@ -19,7 +19,7 @@
 		</div>
 		<div class="col-md-4" id="container1">
 			<div class="write">
-				<a href="?p=listDoAnDangKi">
+				<a href="?p=listDoAnDangKi&subj_id=<?=$_GET['id']?>&subj_name=<?=$_GET['name']?>">
 					<img src="images\hinh1.png" class="topdev">
 					<p class="write-text">Danh sách đồ án đã đăng kí</p>
 				</a>
