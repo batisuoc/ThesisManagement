@@ -2,7 +2,13 @@
 session_start();
 
 // error_reporting(0);
-$p = $_GET['p'];
+if (isset($_GET['p'])) {
+	$p = $_GET['p'];
+}
+else {
+	$p = '';
+}
+
 
 require_once ('controller/StudentController.php');
 $studentCtrler = new StudentController;

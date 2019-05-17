@@ -22,9 +22,9 @@ class StudentController
 		return $this->subject->getListSubject($userid);
 	}
 
-	function addStudentProject($userid, $subj_id, $proj_name, $goal, $quantity)
+	function addStudentProject($userid, $subj_id, $proj_name, $goal, $quantity, $status)
 	{
-		$this->project->insertProject($subj_id, $proj_name, $goal, $quantity);
+		$this->project->insertProject($subj_id, $proj_name, $goal, $quantity, $status);
 		$result = $this->project->getProjectId($proj_name, $subj_id);
 		$this->student->insertStudentProject($userid, $result['id']);
 	}

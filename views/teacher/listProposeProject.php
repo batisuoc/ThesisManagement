@@ -29,7 +29,12 @@ $status = 0;
 						<td><?= $rowPP['numofstudent'] ?></td>
 						<td><?= $rowPP['std_name'] ?></td>
 						<td><?= $status ?></td>
-						<td><button class="btn btn-default">Phê duyệt</button></td>
+						<td>
+							<form method="post">
+								<input type="text" name="projectID" value="<?= $rowPP['id'] ?>" hidden>
+								<input type="submit" class="btn btn-primary" name="verifyProject" id="verifyProject" value="Phê duyệt" /><br/>
+							</form>
+						</td>
 					</tr>
 				<?php } ?>
 			</tbody>

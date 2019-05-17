@@ -4,12 +4,48 @@
 		"selected_items":
 		[
 			[
-				"e",
-				"echo\techo \"…\""
+				"de",
+				"deleteResult"
 			],
 			[
 				"re",
-				"required\tAttr"
+				"req\trequire …"
+			],
+			[
+				"sub",
+				"submit"
+			],
+			[
+				"ro",
+				"rowPj"
+			],
+			[
+				"n",
+				"nl2br"
+			],
+			[
+				"retr",
+				"return"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"con",
+				"conn"
+			],
+			[
+				"row",
+				"rowLprj"
+			],
+			[
+				"e",
+				"echo\techo \"…\""
 			],
 			[
 				"for",
@@ -32,10 +68,6 @@
 				"fun\tfunction …"
 			],
 			[
-				"sub",
-				"subject"
-			],
-			[
 				"in",
 				"input\tTag"
 			],
@@ -46,10 +78,6 @@
 			[
 				"pa",
 				"padding-top\tproperty"
-			],
-			[
-				"row",
-				"rowLT"
 			],
 			[
 				"fetch_a",
@@ -280,10 +308,6 @@
 				"opt"
 			],
 			[
-				"n",
-				"null"
-			],
-			[
 				"regis",
 				"regis_id"
 			],
@@ -328,28 +352,37 @@
 	"buffers":
 	[
 		{
-			"file": "views/student/subjectOption.php",
+			"file": "teacher.php",
 			"settings":
 			{
-				"buffer_size": 1082,
+				"buffer_size": 4570,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "student.php",
+			"file": "views/teacher/listProject.php",
 			"settings":
 			{
-				"buffer_size": 3474,
+				"buffer_size": 1327,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "views/student/regisProject.php",
+			"file": "views/teacher/deleteProject.php",
 			"settings":
 			{
-				"buffer_size": 401,
+				"buffer_size": 329,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controller/TeacherController.php",
+			"settings":
+			{
+				"buffer_size": 1022,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -358,16 +391,7 @@
 			"file": "model/Project.php",
 			"settings":
 			{
-				"buffer_size": 2614,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "controller/StudentController.php",
-			"settings":
-			{
-				"buffer_size": 882,
+				"buffer_size": 3549,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -443,31 +467,32 @@
 		"/opt/lampp/htdocs/thesis/model",
 		"/opt/lampp/htdocs/thesis/others",
 		"/opt/lampp/htdocs/thesis/views",
-		"/opt/lampp/htdocs/thesis/views/student"
+		"/opt/lampp/htdocs/thesis/views/teacher"
 	],
 	"file_history":
 	[
+		"/opt/lampp/htdocs/thesis/views/teacher/editProject.php",
 		"/opt/lampp/htdocs/thesis/model/Project.php",
-		"/opt/lampp/htdocs/thesis/views/student/listSubject.php",
+		"/opt/lampp/htdocs/thesis/views/teacher/createNewProjectForm.php",
 		"/opt/lampp/htdocs/thesis/views/teacher/listProject.php",
-		"/opt/lampp/htdocs/thesis/views/teacher/subjectOption.php",
-		"/opt/lampp/htdocs/thesis/teacher.php",
 		"/opt/lampp/htdocs/thesis/views/teacher/listProposeProject.php",
+		"/opt/lampp/htdocs/thesis/views/teacher/listRegisteredProject.php",
+		"/opt/lampp/htdocs/thesis/views/teacher/ProposeProjectDetails.php",
+		"/opt/lampp/htdocs/thesis/views/teacher/subjectOption.php",
+		"/opt/lampp/htdocs/thesis/student.php",
+		"/opt/lampp/htdocs/thesis/views/student/subjectOption.php",
+		"/opt/lampp/htdocs/thesis/controller/StudentController.php",
+		"/opt/lampp/htdocs/thesis/views/student/subjectProposeForm.php",
+		"/opt/lampp/htdocs/thesis/views/student/regisProject.php",
+		"/opt/lampp/htdocs/thesis/views/student/listSubject.php",
+		"/opt/lampp/htdocs/thesis/teacher.php",
 		"/opt/lampp/htdocs/thesis/controller/TeacherController.php",
 		"/opt/lampp/htdocs/thesis/thesis.sublime-project",
-		"/opt/lampp/htdocs/thesis/views/teacher/editProject.php",
-		"/opt/lampp/htdocs/thesis/views/student/subjectProposeForm.php",
-		"/opt/lampp/htdocs/thesis/views/teacher/ProposeProjectDetails.php",
-		"/opt/lampp/htdocs/thesis/controller/StudentController.php",
-		"/opt/lampp/htdocs/thesis/views/teacher/createNewProjectForm.php",
-		"/opt/lampp/htdocs/thesis/student.php",
 		"/opt/lampp/htdocs/thesis/views/student/RegisteredProject.php",
 		"/opt/lampp/htdocs/thesis/views/teacher/listTeachingSubject.php",
-		"/opt/lampp/htdocs/thesis/views/student/regisProject.php",
 		"/opt/lampp/htdocs/thesis/views/teacher/dashboard.php",
 		"/opt/lampp/htdocs/thesis/model/Subject.php",
 		"/opt/lampp/htdocs/thesis/controller/process.php",
-		"/opt/lampp/htdocs/thesis/views/student/subjectOption.php",
 		"/opt/lampp/htdocs/thesis/others/DangKyGV.php",
 		"/opt/lampp/htdocs/thesis/others/MonHocGV.php",
 		"/opt/lampp/htdocs/thesis/others/luachonGV.php",
@@ -573,12 +598,11 @@
 		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Enterprise_Service_Oriented_Architecture/Seminar/Dockerfile",
 		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Enterprise_Service_Oriented_Architecture/Seminar/Docker_Cheatsheet.txt",
 		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Enterprise_Service_Oriented_Architecture/Seminar/soa.txt",
-		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Enterprise_Service_Oriented_Architecture/Seminar/web_services_system/docker-compose.yml",
-		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Enterprise_Service_Oriented_Architecture/Seminar/docker_tomcat/Dockerfile"
+		"/mnt/storage/Documents/IT_documents/University/4_Fourth_Year/Enterprise_Service_Oriented_Architecture/Seminar/web_services_system/docker-compose.yml"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -610,34 +634,34 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "views/student/subjectOption.php",
+					"file": "teacher.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1082,
+						"buffer_size": 4570,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								427,
-								427
+								667,
+								667
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 54.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -645,79 +669,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "student.php",
+					"file": "views/teacher/listProject.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3474,
+						"buffer_size": 1327,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								64,
-								64
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "views/student/regisProject.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 401,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								233,
-								233
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "model/Project.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2614,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1081,
-								1081
+								49,
+								49
 							]
 						],
 						"settings":
@@ -726,27 +690,55 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 699.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "controller/StudentController.php",
+					"buffer": 2,
+					"file": "views/teacher/deleteProject.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 882,
+						"buffer_size": 329,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								827,
-								827
+								323,
+								323
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "controller/TeacherController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1022,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								957,
+								957
 							]
 						],
 						"settings":
@@ -755,10 +747,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "model/Project.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3549,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3540,
+								3540
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2052.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -780,8 +801,8 @@
 						"selection":
 						[
 							[
-								138,
-								138
+								268,
+								268
 							]
 						],
 						"settings":
@@ -789,7 +810,7 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 358.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,

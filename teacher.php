@@ -1,7 +1,13 @@
 <?php
 session_start();
 
-$p = $_GET['p'];
+if (isset($_GET['p'])) {
+	$p = $_GET['p'];
+}
+else {
+	$p = '';
+}
+
 
 require_once ('controller/TeacherController.php');
 $teacherCtrler = new TeacherController;
@@ -12,8 +18,26 @@ if(empty($_SESSION))
 	die();
 }
 
+if (isset($_POST['verifyProject'])) {
+	$verifyResult = $teacherCtrler->verifyProject($_POST['projectID']);
+	if ($verifyResult == true) 
+	{
+		echo '<script language="javascript">';
+		echo 'alert("Phê duyệt thành công !!!")';
+		echo '</script>';
+	}
+	else
+	{
+		echo '<script language="javascript">';
+		echo 'alert("Phê duyệt thất bại.")';
+		echo '</script>';
+	}
+	//redirect to teacher page
+	header('location: ./teacher.php');
+	exit();
+}
+
 if (isset($_POST['updateProj'])) {
-	// echo $_POST['project_id'];
 	$updateResult = $teacherCtrler->updateProjectInfo($_POST['project_id'], $_POST['project_name'], $_POST['project_goal'], $_POST['project_numstudent']);
 	if ($updateResult == true) 
 	{
